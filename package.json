@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.23.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "socks-proxy-agent": "^6.1.0",
+    "socks5-https-client": "^1.2.1"
+  },
+  "scripts": {
+    "start": "pm2 start autocheck.js --name auto-battle --watch",
+    "restart": "pm2 restart auto-battle",
+    "delete": "pm2 delete auto-battle"
+  }
+}
